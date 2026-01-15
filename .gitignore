@@ -1,0 +1,37 @@
+# UE5 核心排除规则
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+*.sdf
+*.opensdf
+*.suo
+# 日志和临时文件
+*.log
+*.tmp
+*.bak
+# 打包相关
+Packages/
+Builds/
+# 缓存文件
+*.manifest
+*.ipch
+# 编辑器配置
+.idea/
+.vscode/
+# 其他非必要
+*.dll
+*.exe
+
+# Visual Studio 缓存文件（彻底屏蔽大文件）
+.vs/
+*.db
+*.ipch
+*.VC.db
+*.ipch
